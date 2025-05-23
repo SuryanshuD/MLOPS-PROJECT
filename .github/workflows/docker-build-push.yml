@@ -21,9 +21,9 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t slumbloods/Walmart_Weekly_Sales_Regression_Models:latest .
+          docker build -t slumbloods/walmart:latest .
 
       - name: Push Docker Image
         run: |
-          docker push slumbloods/Walmart_Weekly_Sales_Regression_Models:latest
+          docker push slumbloods/walmart:latest
 
